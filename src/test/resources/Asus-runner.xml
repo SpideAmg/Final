@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Asus">
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="99"></parameter>
+    <parameter name="url" value="https://www.asus.com/us/"></parameter>
+    <test name="Asus Page">
+        <classes>
+            <class name="Abdessalam.AsusUpDate.AddToCart"></class>
+            <class name="Abdessalam.AsusUpDate.AMD_Motherboards"></class>
+            <class name="Abdessalam.AsusUpDate.AssertionDealsLogo"></class>
+            <class name="Abdessalam.AsusUpDate.CollingSystem"></class>
+            <class name="Abdessalam.AsusUpDate.Community"></class>
+            <class name="Abdessalam.AsusUpDate.Eyecare"></class>
+            <class name="Abdessalam.AsusUpDate.GMobile"></class>
+            <class name="Abdessalam.AsusUpDate.HighPerformanceLaptop"></class>
+            <class name="Abdessalam.AsusUpDate.Intel_Motherboards"></class>
+            <class name="Abdessalam.AsusUpDate.Keyboardwireless"></class>
+            <class name="Abdessalam.AsusUpDate.LaptopForHome"></class>
+            <class name="Abdessalam.AsusUpDate.LaptopInStock"></class>
+            <class name="Abdessalam.AsusUpDate.LogPositiveT"></class>
+            <class name="Abdessalam.AsusUpDate.LogNegativeT"></class>
+            <class name="Abdessalam.AsusUpDate.MiniPC"></class>
+            <class name="Abdessalam.AsusUpDate.MicePad"></class>
+            <class name="Abdessalam.AsusUpDate.ProArt_Motherboards"></class>
+            <class name="Abdessalam.AsusUpDate.Search"></class>
+            <class name="Abdessalam.AsusUpDate.TufGaming"></class>
+            <class name="Abdessalam.AsusUpDate.WebPD"></class>
+        </classes>
+    </test>
+</suite>

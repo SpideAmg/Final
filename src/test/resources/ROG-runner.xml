@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ROG">
+    <parameter name="useCloudEnv" value="True"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="99"></parameter>
+    <parameter name="url" value="https://rog.asus.com/us/"></parameter>
+    <test name="SupoortPage">
+        <classes>
+            <class name="Abdessalam.ROG.AssertROGLogo"></class>
+            <class name="Abdessalam.ROG.AsusLogoROGLogo"></class>
+            <class name="Abdessalam.ROG.HandleTUFPageAndFrame"></class>
+            <class name="Abdessalam.ROG.LogInNeg"></class>
+            <class name="Abdessalam.ROG.LogInToSetting"></class>
+            <class name="Abdessalam.ROG.PcDiyWebPageHandle"></class>
+            <class name="Abdessalam.ROG.PoweredByAsus"></class>
+           <class name="Abdessalam.ROG.QHDGamingMonitors"></class>
+            <class name="Abdessalam.ROG.scrollDownQHDPage"></class>
+            <class name="Abdessalam.ROG.SocialMediaLoginManagement"></class>
+            <class name="Abdessalam.ROG.SortbyCustomizeYourBuild"></class>
+            <class name="Abdessalam.ROG.Support"></class>
+            <class name="Abdessalam.ROG.ROGStory"></class>
+            <class name="Abdessalam.ROG.TheRiseOfGamingLoop"></class>
+            <class name="Abdessalam.ROG.ReadExcel"></class>
+            <class name="Abdessalam.ROG.PauseAndPlayBtn"></class>
+            <class name="Abdessalam.ROG.YourBagIsEmpty"></class>
+            <class name="Abdessalam.ROG.MyROGEliteReward"></class>
+            <class name="Abdessalam.ROG.RouterButton"></class>
+            <class name="Abdessalam.ROG.ControllerROGKunai3"></class>
+            <class name="Abdessalam.ROG.CasesButton"></class>
+            <class name="Abdessalam.ROG.GlobalForum"></class>
+            <class name="Abdessalam.ROG.TermAndUseNotice"></class>
+            <class name="Abdessalam.ROG.HomeButton"></class>
+            <class name="Abdessalam.ROG.RogLaptopDisplayLeadship"></class>
+            <class name="Abdessalam.RepublicOfGamers.AboutROGDownPage"></class>
+            <class name="Abdessalam.RepublicOfGamers.AboutROGMidlePage"></class>
+            <class name="Abdessalam.RepublicOfGamers.AccessiblityHelp"></class>
+            <class name="Abdessalam.RepublicOfGamers.ArmoryCrateHov"></class>
+            <class name="Abdessalam.RepublicOfGamers.AsusIcon"></class>
+            <class name="Abdessalam.RepublicOfGamers.ChangeLanguageToFrensh"></class>
+            <class name="Abdessalam.RepublicOfGamers.CommunityPages"></class>
+            <class name="Abdessalam.RepublicOfGamers.ExploreOurProductsSlideBtn"></class>
+            <class name="Abdessalam.RepublicOfGamers.ExternalGraphicsDocks2022"></class>
+            <class name="Abdessalam.RepublicOfGamers.LogInPositive"></class>
+            <class name="Abdessalam.RepublicOfGamers.MoreArticlesBtn"></class>
+            <class name="Abdessalam.RepublicOfGamers.PlayWithScrollDown"></class>
+            <class name="Abdessalam.RepublicOfGamers.PlusIConDeviceConfigurationArmoryCrate"></class>
+            <class name="Abdessalam.RepublicOfGamers.PupOpZoomArmoryCrate"></class>
+            <class name="Abdessalam.RepublicOfGamers.RecentReleases"></class>
+            <class name="Abdessalam.RepublicOfGamers.PlusBtnLoop"></class>
+            <class name="Abdessalam.RepublicOfGamers.ROGZenithIINotifyMe"></class>
+            <class name="Abdessalam.RepublicOfGamers.RoGFlowX16ScrollDownSlow"></class>
+            <class name="Abdessalam.RepublicOfGamers.SearchBarTypeAndClearAndSearch"></class>
+            <class name="Abdessalam.RepublicOfGamers.WallPapersDownload"></class>
+
+
+
+
+
+
+        </classes>
+    </test>
+
+
+</suite>
+

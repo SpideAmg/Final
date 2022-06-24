@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Republic of Gamers">
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="99"></parameter>
+    <parameter name="url" value="https://rog.asus.com/us/"></parameter>
+    <test name="Republic Of Gamers">
+
+        <classes>
+            <class name="Abdessalam.RepublicOfGamers.AboutROGDownPage"></class>
+            <class name="Abdessalam.RepublicOfGamers.AboutROGMidlePage"></class>
+            <class name="Abdessalam.RepublicOfGamers.AccessiblityHelp"></class>
+            <class name="Abdessalam.RepublicOfGamers.ArmoryCrateHov"></class>
+            <class name="Abdessalam.RepublicOfGamers.AsusIcon"></class>
+            <class name="Abdessalam.RepublicOfGamers.ChangeLanguageToFrensh"></class>
+            <class name="Abdessalam.RepublicOfGamers.CommunityPages"></class>
+            <class name="Abdessalam.RepublicOfGamers.ExploreOurProductsSlideBtn"></class>
+            <class name="Abdessalam.RepublicOfGamers.ExternalGraphicsDocks2022"></class>
+            <class name="Abdessalam.RepublicOfGamers.LogInPositive"></class>
+            <class name="Abdessalam.RepublicOfGamers.MoreArticlesBtn"></class>
+            <class name="Abdessalam.RepublicOfGamers.PlayWithScrollDown"></class>
+            <class name="Abdessalam.RepublicOfGamers.PlusIConDeviceConfigurationArmoryCrate"></class>
+            <class name="Abdessalam.RepublicOfGamers.PupOpZoomArmoryCrate"></class>
+            <class name="Abdessalam.RepublicOfGamers.RecentReleases"></class>
+            <class name="Abdessalam.RepublicOfGamers.PlusBtnLoop"></class>
+            <class name="Abdessalam.RepublicOfGamers.ROGZenithIINotifyMe"></class>
+            <class name="Abdessalam.RepublicOfGamers.RoGFlowX16ScrollDownSlow"></class>
+            <class name="Abdessalam.RepublicOfGamers.SearchBarTypeAndClearAndSearch"></class>
+            <class name="Abdessalam.RepublicOfGamers.WallPapersDownload"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
+
