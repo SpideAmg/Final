@@ -24,6 +24,7 @@ public class LogInToSetting extends CommonAPI {
         LOG.info("Password entered successfully");
         LGP.clickLogInBtn();
         LOG.info("LOGIN button clicked successfully");
+        waitFor(1);
         ROG.SettingAccess();
         LOG.info("setting button clicked and setting page opened successfully");
     }

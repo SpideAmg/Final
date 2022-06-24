@@ -695,7 +695,7 @@ public class RepublicOfGamersHomePage extends CommonAPI {
                         " Through innovative technology and exceptional experiences, we can push boundaries to create a world without limits.");
                 js.executeScript("arguments[0].scrollIntoView(true);", DownThePage);
                 LOG.info("Scrolled to Down successfully");
-                waitFor(1);
+                waitFor(2);
                 click(Inception);
                 LOG.info("Inception clicked");
                 click(Intuition);

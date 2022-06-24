@@ -35,7 +35,64 @@
 
         </classes>
     </test>
+    <test name="Home Page Test">
+        <classes>
+            <class name="SwappaWebSite.HomePageTest"></class>
+        </classes>
+    </test>
+    <test name="Add To Cart Test">
+        <classes>
+            <class name="SwappaWebSite.AddToCartTest"></class>
+        </classes>
+    </test>
 
+    <test name="Cameras Page Test">
+        <classes>
+            <class name="SwappaWebSite.CamerasTest"></class>
+        </classes>
+    </test>
+
+    <test name="Help sectionTest">
+        <classes>
+            <class name="SwappaWebSite.HelpSectionTest"></class>
+        </classes>
+    </test>
+
+    <test name="Login Page Test">
+        <classes>
+            <class name="SwappaWebSite.LoginPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Menu Page Test">
+        <classes>
+            <class name="SwappaWebSite.MenuPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Phones Page Test">
+        <classes>
+            <class name="SwappaWebSite.PhonesPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Search BarTest">
+        <classes>
+            <class name="SwappaWebSite.SearchBarTest"></class>
+        </classes>
+    </test>
+
+    <test name="Sell page Test">
+        <classes>
+            <class name="SwappaWebSite.SellPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Top Menu Test">
+        <classes>
+            <class name="SwappaWebSite.TopMenuHomePageTest"></class>
+        </classes>
+    </test>
 
 </suite>
 
