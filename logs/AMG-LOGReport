@@ -1118,3 +1118,75 @@
 13:24:44.715 A.RepublicOfGamersHomePage - type in search bar and enter success
 13:24:44.739 A.RepublicOfGamersHomePage - clear search bar success
 13:24:44.767 A.RepublicOfGamersHomePage - type in search bar and enter success
+22:47:32.431 base.CommonAPI - Screenshot captured
+00:48:42.324 Abdessalam.ROG.TheRiseOfGamingLoop - Cookies accepted
+00:48:44.132 A.RepublicOfGamersHomePage - ToGo button clicked successfully
+00:48:45.211 A.RepublicOfGamersHomePage - Scroll down to view
+00:48:45.572 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:48:45.804 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:48:46.028 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:48:46.228 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:48:46.425 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:48:46.657 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:48:46.869 A.RepublicOfGamersHomePage - Button Clicked successfully
+00:49:46.278 Abdessalam.ROG.HandleTUFPageAndFrame - Cookies accepted
+00:49:46.295 A.RepublicOfGamersHomePage - ParentWindow  - CDwindow-A99B33F4F321FD80C2FD07CFE260483B
+00:49:46.709 A.RepublicOfGamersHomePage - Dropdown opened successfully after hover over on it
+00:49:46.868 A.RepublicOfGamersHomePage - TUF Clicked successfully
+00:49:46.878 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-A99B33F4F321FD80C2FD07CFE260483B
+00:49:46.879 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-7E12D17118CE030E646BF22F0FA97905
+00:49:46.890 A.RepublicOfGamersHomePage - Switch to Tuf Gaming window success
+00:49:51.162 base.CommonAPI - Screenshot captured
+00:50:29.860 Abdessalam.ROG.HandleTUFPageAndFrame - Cookies accepted
+00:50:29.877 A.RepublicOfGamersHomePage - ParentWindow  - CDwindow-5B3AAE5C82D6F71CC8ED91C8413BF888
+00:50:30.182 A.RepublicOfGamersHomePage - Dropdown opened successfully after hover over on it
+00:50:30.377 A.RepublicOfGamersHomePage - TUF Clicked successfully
+00:50:30.390 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-5B3AAE5C82D6F71CC8ED91C8413BF888
+00:50:30.391 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-C5203F631193840025C8BBBEB846FD24
+00:50:30.404 A.RepublicOfGamersHomePage - Switch to Tuf Gaming window success
+00:50:34.509 base.CommonAPI - Screenshot captured
+00:51:13.798 Abdessalam.ROG.HandleTUFPageAndFrame - Cookies accepted
+00:51:13.808 A.RepublicOfGamersHomePage - ParentWindow  - CDwindow-6AC49FF1D7BA6ACCD7271AB62D7CF18E
+00:51:14.105 A.RepublicOfGamersHomePage - Dropdown opened successfully after hover over on it
+00:51:14.291 A.RepublicOfGamersHomePage - TUF Clicked successfully
+00:51:14.305 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-6AC49FF1D7BA6ACCD7271AB62D7CF18E
+00:51:14.305 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-EDC9B605370B00E31428B6A4C86E6A2B
+00:51:14.313 A.RepublicOfGamersHomePage - Switch to Tuf Gaming window success
+00:51:19.215 base.CommonAPI - Screenshot captured
+00:51:46.027 Abdessalam.ROG.HandleTUFPageAndFrame - Cookies accepted
+00:51:46.043 A.RepublicOfGamersHomePage - ParentWindow  - CDwindow-073E0FAD85BDA53B430B77F6E754696C
+00:51:46.348 A.RepublicOfGamersHomePage - Dropdown opened successfully after hover over on it
+00:51:46.566 A.RepublicOfGamersHomePage - TUF Clicked successfully
+00:51:46.579 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-073E0FAD85BDA53B430B77F6E754696C
+00:51:46.579 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-034A682EBDC4D6E29E146E9829E10502
+00:51:46.589 A.RepublicOfGamersHomePage - Switch to Tuf Gaming window success
+00:51:50.938 base.CommonAPI - Screenshot captured
+00:52:36.392 Abdessalam.ROG.HandleTUFPageAndFrame - Cookies accepted
+00:52:36.411 A.RepublicOfGamersHomePage - ParentWindow  - CDwindow-F29E070966D4ACD878E6159A13BD4417
+00:52:36.709 A.RepublicOfGamersHomePage - Dropdown opened successfully after hover over on it
+00:52:36.924 A.RepublicOfGamersHomePage - TUF Clicked successfully
+00:52:36.938 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-F29E070966D4ACD878E6159A13BD4417
+00:52:36.939 A.RepublicOfGamersHomePage - TUFGaming page  :CDwindow-AFC80797EF4DD25D6EE69BBF052DC208
+00:52:36.948 A.RepublicOfGamersHomePage - Switch to Tuf Gaming window success
+00:52:40.677 A.RepublicOfGamersHomePage - Switch to frame and Close it success
+00:53:44.258 Abdessalam.ROG.YourBagIsEmpty - Cookies Accepted
+00:53:44.589 Abdessalam.ROG.YourBagIsEmpty - Card Button Clicked successfully
+00:53:44.661 Abdessalam.ROG.YourBagIsEmpty - Text Your Bag is empty present
+00:55:25.369 A.RepublicOfGamers.PlusBtnLoop - Cookies Accepted
+00:55:25.852 A.RepublicOfGamers.PlusBtnLoop - hover Over Innovation success and dropdown displayed
+00:55:30.743 base.CommonAPI - Screenshot captured
+00:56:49.265 A.RepublicOfGamers.PlusBtnLoop - Cookies Accepted
+00:56:49.569 A.RepublicOfGamers.PlusBtnLoop - hover Over Innovation success and dropdown displayed
+00:56:54.222 base.CommonAPI - Screenshot captured
+00:57:13.778 A.RepublicOfGamers.PlusBtnLoop - Cookies Accepted
+00:57:14.122 A.RepublicOfGamers.PlusBtnLoop - hover Over Innovation success and dropdown displayed
+00:57:18.640 base.CommonAPI - Screenshot captured
+00:58:24.657 A.RepublicOfGamers.PlusBtnLoop - Cookies Accepted
+00:58:24.970 A.RepublicOfGamers.PlusBtnLoop - hover Over Innovation success and dropdown displayed
+00:58:30.111 base.CommonAPI - Screenshot captured
+00:59:02.981 A.RepublicOfGamers.PlusBtnLoop - Cookies Accepted
+00:59:03.297 A.RepublicOfGamers.PlusBtnLoop - hover Over Innovation success and dropdown displayed
+00:59:07.867 base.CommonAPI - Screenshot captured
+00:59:49.775 A.RepublicOfGamers.PlusBtnLoop - Cookies Accepted
+00:59:50.106 A.RepublicOfGamers.PlusBtnLoop - hover Over Innovation success and dropdown displayed
+00:59:54.711 base.CommonAPI - Screenshot captured

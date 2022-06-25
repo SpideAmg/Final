@@ -514,6 +514,7 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!TUFGamingPage.equals(ROGPage)) {
                 driver.switchTo().window(TUFGamingPage);
                 LOG.info("Switch to Tuf Gaming window success");
+                waitFor(2);
                 driver.switchTo().frame("ju_iframe_775395");
                 click(SmallWindowClos);
                 LOG.info("Switch to frame and Close it success");
