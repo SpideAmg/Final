@@ -19,7 +19,6 @@ public class HighPerformanceLaptop extends CommonAPI {
         Assert.assertEquals(getPageTitle(),"ASUS USA");
         AsusHomePage.hoverOverMenuLaptop(getDriver());
         LOG.info("hover Over Menu Laptop success and dropdown displayed");
-        waitFor(1);
         AsusHomePage.clickHighPerformanceLaptop();
         LOG.info("High Performance Laptop button clicked and Laptop displayed successfully");
 

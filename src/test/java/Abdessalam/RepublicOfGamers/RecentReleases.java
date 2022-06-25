@@ -18,7 +18,6 @@ public class RecentReleases extends CommonAPI {
         LOG.info("Cookies Accepted");
         RepublicOfGamers.ScrollDownToRecentReleases(getDriver());
         LOG.info("Scroll down to new release success");
-        waitFor(1);
         RepublicOfGamers.hoverOver5Image(getDriver());
 
 

@@ -16,7 +16,6 @@ public class Community extends CommonAPI {
         Assert.assertEquals(getPageTitle(),"ASUS USA");
         AsusHomePage.clickCookiesBtn();
         LOG.info("Cookies Accepted");
-        waitFor(2);
         AsusHomePage.ClickFacebookLogo();
         LOG.info("Facebook Logo clicked and page opened successfully");
         AsusHomePage.ClickTwitterLogo();

@@ -22,7 +22,6 @@ public class LogPositiveT extends CommonAPI {
         LOG.info("Cookies Accepted");
         AsusHomePage.clickLogInIcon();
         LOG.info("Log in Icon clicked");
-        waitFor(1);
         AsusHomePage.clickLogInBtn();
         LOG.info("Log in Button clicked");
         waitFor(1);

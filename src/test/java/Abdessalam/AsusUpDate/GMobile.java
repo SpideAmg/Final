@@ -22,7 +22,6 @@ public class GMobile extends CommonAPI {
         Assert.assertEquals(getPageTitle(),"Phone - All series｜ASUS USA");
         AsusHomePage.clickCheckBoxGamingPhone();
         LOG.info("Gaming Phone Box Checked success and Gaming Phone Displayed ");
-        waitFor(1);
         AsusHomePage.checkIfBoxCheckedGaming();
         LOG.info("Gaming phone Box is checked");
 

@@ -38,15 +38,12 @@ public class AsusSupportPage extends CommonAPI {
 
 
     public void SearchBarServiceDesk(){
-        waitFor(2);
         click(closePopUpWindow);
-        waitFor(1);
         click(GotoServiceDesk);
         LOG.info("Go to service desk Clicked successfully");
-        waitFor(1);
         typeAndEnter(SearchBar,"DeskTop");
         LOG.info("DeskTop entered in the search bar successfully and services displayed");
-        waitFor(1);
+
 
 
     }
@@ -54,14 +51,11 @@ public class AsusSupportPage extends CommonAPI {
     private WebElement morenew;
 
     public void SupportPage(WebDriver driver){
-        waitFor(2);
         click(closePopUpWindow);
         LOG.info("Popup Window closed successfully");
-        waitFor(1);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", NewsImportantInformation);
         LOG.info("Scroll down to News and Important Information successfully ");
-        waitFor(1);
         click(morenew);
         LOG.info("More News button click successfully");
 
@@ -75,15 +69,13 @@ public class AsusSupportPage extends CommonAPI {
     private WebElement Title;
 
     public void SupportPageShowAllProductBtn(WebDriver driver){
-        waitFor(2);
         click(closePopUpWindow);
         LOG.info("Windows Close");
-         waitFor(2);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", ShowAllProductBtn);
         click(ShowAllProductBtn);
         LOG.info("Show all product button clicked and product displayed");
-        waitFor(1);
+
     }
 
 

@@ -22,7 +22,6 @@ public class PlusBtnLoop extends CommonAPI {
             LOG.info("Cookies Accepted");
             RepublicOfGamers.hoverOverInnovationMenu(getDriver());
             LOG.info("hover Over Innovation success and dropdown displayed");
-            waitFor(1);
             RepublicOfGamers.clickArmoryBtn();
             LOG.info("Armory Button clicked");
             Assert.assertEquals(getPageTitle(), "Armoury-Crate | US | For Those Who Dare");

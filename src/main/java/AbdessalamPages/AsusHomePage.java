@@ -303,7 +303,6 @@ public class AsusHomePage extends CommonAPI {
 
 
     public void clicksearchBarModelNamee(){
-        waitFor(1);
         click(searchBarModelNamee);
     }
 

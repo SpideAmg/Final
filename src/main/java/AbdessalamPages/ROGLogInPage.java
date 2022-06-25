@@ -59,7 +59,6 @@ public class ROGLogInPage extends CommonAPI {
 
 
     public void Info() {
-        waitFor(1);
         typeEmailfake();
         LOG.info("Fake Email entered successfully");
         typePassWordfake();

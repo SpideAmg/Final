@@ -18,7 +18,6 @@ public class Keyboardwireless extends CommonAPI {
         LOG.info("Cookies Accepted");
         AsusHomePage.hoverOverAccessoriesMenu(getDriver());
         LOG.info("hover Over Accessories success and dropdown displayed");
-        waitFor(1);
         AsusHomePage.clickWirelessKeyboards();
         LOG.info("Wireless Keyboards clicked and keyboards displayed");
 

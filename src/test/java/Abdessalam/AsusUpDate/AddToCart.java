@@ -25,16 +25,12 @@ public class AddToCart extends CommonAPI {
         Assert.assertEquals(getPageTitle(),"ASUS USA");
         AsusHomePage.clickLogInIcon();
         LOG.info("Log in Icon clicked");
-        waitFor(1);
         AsusHomePage.clickLogInBtn();
         LOG.info("Log in Button clicked");
-        waitFor(1);
         AsusLogInPage.enterEmail();
         LOG.info("Email entered successfully");
-        waitFor(1);
         AsusLogInPage.enterPassWord();
         LOG.info("Password entered successfully");
-        waitFor(2);
         AsusHomePage.clickBuyLaptopDeal();
         LOG.info("Buy Laptop Deal clicked");
         waitFor(1);

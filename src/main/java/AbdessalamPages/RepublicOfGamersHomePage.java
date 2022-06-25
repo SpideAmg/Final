@@ -364,11 +364,9 @@ public class RepublicOfGamersHomePage extends CommonAPI {
     }
     public void ClearSearchBar() {
         clear(SearchBar);
-        waitFor(2);
     }
     public void TypeAndEnterSearchBarr() {
         typeAndEnter(SearchBar, "KeyBoard");
-        waitFor(2);
     }
     public String getTextProduct() {
         return getElementText(ProductText);
@@ -465,7 +463,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
     public void hoverAndClickPcDiy(WebDriver driver) {
         clickCookiesAcceptBtn();
         hoverOver(driver, WhatsHot);
-        waitFor(2);
         click(AsusPcDiy);
     }
     public void HandlePcDiyPageSwitch(WebDriver driver) {
@@ -482,11 +479,9 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!PcDiyPage.equals(ROGPage)) {
                 driver.switchTo().window(PcDiyPage);
                 LOG.info("Window switched successfully");
-                waitFor(3);
                 JavascriptExecutor js = (JavascriptExecutor) driver;
                 js.executeScript("arguments[0].scrollIntoView(true);", scrooltovii);
                 LOG.info("Scroll down successfully");
-                waitFor(2);
                 click(LearnMoreGetRewards);
                 LOG.info("learn more and ger reward clicked");
                 waitFor(1);
@@ -500,10 +495,8 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!RateYourGear.equals(RateYourGearPage) & !RateYourGear.equals(ROGPage)) {
                 driver.switchTo().window(RateYourGear);
                 LOG.info("Window switch successfully");
-                waitFor(1);
                 click(HowToJoin);
                 LOG.info("How to join clicked successfully and window opened");
-                waitFor(1);
             }
         }
     }
@@ -521,11 +514,9 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!TUFGamingPage.equals(ROGPage)) {
                 driver.switchTo().window(TUFGamingPage);
                 LOG.info("Switch to Tuf Gaming window success");
-                waitFor(3);
                 driver.switchTo().frame("ju_iframe_775395");
                 click(SmallWindowClos);
                 LOG.info("Switch to frame and Close it success");
-                waitFor(1);
             }
         }
     }
@@ -537,7 +528,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", AccessibilityBtn);
         LOG.info("scroll to Accessibility success");
-        waitFor(1);
         click(AccessibilityBtn);
         LOG.info("Accessibility button click success");
         Set<String> AccHelphandle = driver.getWindowHandles();
@@ -546,7 +536,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!AccessibilityPage.equals(ROGPage)) {
                 driver.switchTo().window(AccessibilityPage);
                 LOG.info("switch to Accessibility page success");
-                waitFor(1);
                 click(WCAG);
                 LOG.info("WCAG clicked page opened successfully");
             }
@@ -558,7 +547,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         isPresent(LogoROG);
         isInteractable(LogoROG);
         LOG.info("Rog Logo is intractable");
-        waitFor(1);
         click(LogoROG);
         LOG.info("Rog Logo is present and click success");
     }
@@ -569,7 +557,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         LOG.info("ParentWindow  - " + ROGPage);
         hoverOver(driver, WhatsHot);
         LOG.info("Hover over Whats hot success and dropdown displayed");
-        waitFor(1);
         click(QHD);
         LOG.info("QHD clicked and page opened successfully");
         Set<String> QHDHandle = driver.getWindowHandles();
@@ -588,7 +575,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         LOG.info("ParentWindow  - " + ROGPage);
         hoverOver(driver, WhatsHot);
         LOG.info("Hover over whats hot success");
-        waitFor(1);
         click(QHD);
         LOG.info("QHD clicked successfully");
         Set<String> QHDHandle = driver.getWindowHandles();
@@ -597,7 +583,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!QHDPage.equals(ROGPage)) {
                 driver.switchTo().window(QHDPage);
                 LOG.info("window switched successfully");
-                waitFor(1);
                 JavascriptExecutor js = (JavascriptExecutor) driver;
                 js.executeScript("arguments[0].scrollIntoView(true);", FeatureMonitors);
                 LOG.info("scroll down to Feature Monitors successfully");
@@ -611,10 +596,8 @@ public class RepublicOfGamersHomePage extends CommonAPI {
     public void Logos() {
         clickCookiesAcceptBtn();
         LOG.info("Cookies accepted");
-        waitFor(1);
         click(AsusLogos);
         LOG.info("Clicked on Asus logo successfully");
-        waitFor(1);
     }
     public void rogAndAsusPagesHandle(WebDriver driver){
         String AsusPage = driver.getWindowHandle();
@@ -629,7 +612,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!ROGPage.equals(AsusPage)) {
                 driver.switchTo().window(ROGPage);
                 LOG.info("Page switched successfully");
-                waitFor(1);
 //                JavascriptExecutor js = (JavascriptExecutor) driver;
 //                js.executeScript("arguments[0].scrollIntoView(true);", ROGInAction);
 //                waitFor(1);
@@ -647,7 +629,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", AboutROGBtn);
         LOG.info("Scroll down to About rog success");
-        waitFor(1);
         click(AboutROGBtn);
         LOG.info("About rog Button clicked");
         Set<String> AboutHandle = driver.getWindowHandles();
@@ -657,7 +638,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
                 LOG.info("Page switched successfully");
                 waitFor(1);
                 js.executeScript("arguments[0].scrollIntoView(true);", HoverAndClick);
-                waitFor(1);
                 click(Innovation);
                 LOG.info("Innovation clicked");
                 click(MotherBoards);
@@ -678,7 +658,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         LOG.info("Cookies Accepted");
         String ROGPage = driver.getWindowHandle();
         LOG.info("ParentWindow  - " + ROGPage);
-        waitFor(1);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", AboutROGBtn);
         LOG.info("Scrolled to About ROG button successfully");
@@ -690,12 +669,11 @@ public class RepublicOfGamersHomePage extends CommonAPI {
             if (!AboutPage.equals(ROGPage)) {
                 driver.switchTo().window(AboutPage);
                 LOG.info("Window switched successfully");
-                waitFor(2);
+                waitFor(1);
                 Assert.assertEquals(getElementText(OurMission), "Unite gamers of diverse backgrounds to achieve their potential together in play." +
                         " Through innovative technology and exceptional experiences, we can push boundaries to create a world without limits.");
                 js.executeScript("arguments[0].scrollIntoView(true);", DownThePage);
                 LOG.info("Scrolled to Down successfully");
-                waitFor(2);
                 click(Inception);
                 LOG.info("Inception clicked");
                 click(Intuition);
@@ -736,7 +714,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", toView);
         LOG.info("Scroll down to view");
-        waitFor(1);
         List<WebElement> TheList = driver.findElements(By.xpath("//*[@class='nav']"));
         for(int i = 0; i< TheList.size(); i++) {
             TheList.get(i).click();
@@ -746,10 +723,8 @@ public class RepublicOfGamersHomePage extends CommonAPI {
     public void ToLogIn(){
         clickCookiesAcceptBtn();
         LOG.info("Cookies accepted");
-        waitFor(2);
         clickLogInBtn();
         LOG.info("Login Icon clicked and drop down displayed");
-        waitFor(2);
         clickLogInFromDropDown();
         LOG.info("login Button clicked");
     }
@@ -760,7 +735,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
     public void SettingAccess(){
         clickLogInBtn();
         LOG.info("LOGIN ICON clicked successfully");
-        waitFor(3);
         click(SettingBtn);
         LOG.info("Setting button clicked successfully");
     }
@@ -786,7 +760,6 @@ public class RepublicOfGamersHomePage extends CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", StoryImage);
         LOG.info("Scroll down to Story image Successfully");
-        waitFor(3);
         click(StoryImage);
         LOG.info("Story image clicked successfully");
         LOG.info("ROG Story page opened successfully");

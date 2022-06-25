@@ -20,7 +20,7 @@ public class ROGZenithIINotifyMe extends CommonAPI {
         LOG.info("Hover Over Products dropdown displayed");
         RepublicOfGamers.clickMotherboardsFromMenu();
         LOG.info("Motherboard clicked successfully");
-        waitFor(1);
+
         RepublicOfGamers.clickRogZenith();
         LOG.info("Rog Zenith Motherboard Button clicked successfully page opened");
         Assert.assertEquals(getPageTitle(),"ROG Zenith | Gaming Motherboards｜ROG - Republic of Gamers｜ROG USA");

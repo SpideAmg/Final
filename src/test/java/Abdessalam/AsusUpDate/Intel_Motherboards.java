@@ -19,7 +19,6 @@ public class Intel_Motherboards extends CommonAPI {
         Assert.assertEquals(getPageTitle(),"ASUS USA");
         AsusHomePage.hoverOverMotherBoardsAndComponentsMenu(getDriver());
         LOG.info("hover Over Motherboards And Components success and dropdown displayed");
-        waitFor(2);
         AsusHomePage.clickIntelByChipsetBrand();
         LOG.info("Intel By Chipset Brand clicked success and Motherboards displayed");
 

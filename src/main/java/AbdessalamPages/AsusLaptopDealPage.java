@@ -29,10 +29,8 @@ public class AsusLaptopDealPage extends CommonAPI {
 
         click(BlackBtn);
         LOG.info("Color black selected");
-        waitFor(1);
         click(HDD);
         LOG.info("Storage selected");
-        waitFor(1);
         click(addToCartBtn);
     }
 

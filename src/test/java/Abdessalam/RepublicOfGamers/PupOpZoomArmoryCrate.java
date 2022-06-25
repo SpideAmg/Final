@@ -19,11 +19,9 @@ public class PupOpZoomArmoryCrate extends CommonAPI {
         LOG.info("Cookies Accepted");
         RepublicOfGamers.hoverOverInnovationMenu(getDriver());
         LOG.info("hover Over Innovation success and dropdown displayed");
-        waitFor(1);
         RepublicOfGamers.clickArmoryBtn();
         LOG.info("Armory button clicked page opened successfully");
         Assert.assertEquals(getPageTitle(), "Armoury-Crate | US | For Those Who Dare");
-        waitFor(1);
         ArmouryCratePage.hoverOverPicN1(getDriver());
         LOG.info("hover Over PicN1 successfully");
         ArmouryCratePage.hoverOverPicN2(getDriver());

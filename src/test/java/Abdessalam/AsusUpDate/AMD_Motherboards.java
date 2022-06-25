@@ -18,9 +18,7 @@ public class AMD_Motherboards extends CommonAPI {
         Assert.assertEquals(getPageTitle(),"ASUS USA");
         AsusHomePage.hoverOverMotherBoardsAndComponentsMenu(getDriver());
         LOG.info("Hover over Motherboards And Components success and dropdown opens");
-        waitFor(1);
         AsusHomePage.clickAMDChipsetBrandFromMenu();
-        waitFor(1);
         Assert.assertEquals("AMD｜Motherboards｜ASUS USA",getPageTitle());
         LOG.info("AMD Chipset clicked success and AMD Motherboards displayed");
 

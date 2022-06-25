@@ -24,7 +24,7 @@ public class MoreArticlesBtn extends CommonAPI {
         RepublicOfGamers.clickNewsAndArticles();
         LOG.info("News and Articles clicked and page opened successfully");
         Assert.assertEquals("ARTICLES",ArticlesPage.getArticleText());
-        waitFor(1);
+
         ArticlesPage.scrollAndclickMoreArticlesBtn(getDriver());
         LOG.info("scroll down success and More Articles Button clicked");
         LOG.info("More Articles displayed");

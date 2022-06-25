@@ -93,23 +93,10 @@ public class ShittyPage extends CommonAPI {
         type(Suggestions, "Can");
     }
 
-   // public void selectCanada(WebDriver driver) {
-      //  clickAndHold(driver, Canada);
-  //  }
-
-  //  public void hoverOverCanada(WebDriver driver) {
-      //  hoverOver(driver, Canada);
-  //  }
-
     public void suggestDropDown(WebDriver driver) {
         click(Suggestions);
         Suggestions.sendKeys(Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER);
     }
-
-   // public void ScrollDown33(){
-     //  scrollToView(Amount33);
-
-
 
     public void CheckIf(){
         checkBoxIsChecked(CheckBoxOption1);

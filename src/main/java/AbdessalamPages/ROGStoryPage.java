@@ -89,7 +89,6 @@ public class ROGStoryPage extends CommonAPI {
             TheList.get(i);
             hoverOver(driver, TheList.get(i));
             LOG.info(String.valueOf("HoverOver Successfully"));
-            waitFor(1);
         }
 
     }

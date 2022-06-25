@@ -19,13 +19,11 @@ public class PlusIConDeviceConfigurationArmoryCrate extends CommonAPI {
         LOG.info("Cookies Accepted");
         RepublicOfGamers.hoverOverInnovationMenu(getDriver());
         LOG.info("hover Over Innovation success and dropdown displayed");
-        waitFor(1);
         RepublicOfGamers.clickArmoryBtn();
         LOG.info("Armory button clicked page opened successfully");
         Assert.assertEquals(getPageTitle(), "Armoury-Crate | US | For Those Who Dare");
         ArmouryCratePage.scrolldown(getDriver());
         LOG.info("scroll down to Device Configuration successfully");
-        waitFor(1);
         ArmouryCratePage.clickLaptopPlusIcon();
         LOG.info("Laptop Plus Button Clicked and description displayed");
         ArmouryCratePage.clickMousePlusIcon();
